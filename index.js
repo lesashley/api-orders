@@ -18,7 +18,7 @@ app.get('/orders/:id', function (req, res) {
   if (!result) {
     res.sendStatus(404);
   } else {
-    res.send(result);
+    res.send(result.despacho);
   }
 });
 
