@@ -16,7 +16,7 @@ app.get('/orders/:id', function (req, res) {
   const id = (req.params.id).toString();
   const result = orders.filter(r => r.id === id)[0];
   if (!result) {
-    res.sendStatus(200);
+    res.sendStatus(404);
   } else {
     res.send(result.despacho).json();
   }
