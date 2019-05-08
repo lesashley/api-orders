@@ -1,0 +1,20 @@
+{
+  "name": "mis-pedidos",
+  "version": "1.0.0",
+  "description": "Mis pedidos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Leslie Avendaño",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
